@@ -17,8 +17,8 @@ class FFMpegCutter extends Cutter implements CutterInterface {
     public function command()
     {
         return sprintf(
-            $this->command, $this->inputFile, $this->beginTime, 
-            $this->endTime, $this->outputFile
+            $this->command, 
+            $this->inputFile, $this->beginTime, $this->endTime, $this->outputFile
         );
     }
 
