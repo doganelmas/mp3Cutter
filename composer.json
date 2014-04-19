@@ -1,0 +1,15 @@
+{
+    "name": "doganelmas/cutter",
+    "description": "mp3 cutter",
+    "authors": [
+        {
+            "name": "doganelmas",
+            "email": "doganelmas34@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cutter\\": "src/"
+        }
+    }
+}
