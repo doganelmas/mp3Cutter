@@ -7,8 +7,8 @@ Mp3 cutter
 
     $cutter = new Cutter\FFMpegCutter;
     
-    $cutter->setInputFile('hoscakal.mp3')
+    $cutter->setInputFile('testInputFile.mp3')
            ->setBeginTime('20')
            ->setEndTime('15')
-           ->setOutputFile('hoscakal_20_15.mp3')
+           ->setOutputFile('testOutputFile.mp3')
            ->runCommand();
